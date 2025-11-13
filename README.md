@@ -1,9 +1,9 @@
 # Hi, hier einmal alle infos und der ablauf.
 
 ## aktueller ablauf: 
-### 1. entwicklung frontend l,j,n
+### 1. entwicklung frontend l,n
 #hier bitte selbst planen
-
+j -> alles rund um den administrator und login 
 
 ### 3. entwicklung backend  b,r,s
 r -> api
