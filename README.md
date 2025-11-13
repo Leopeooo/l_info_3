@@ -1,11 +1,11 @@
-Hi, hier einmal alle infos und der ablauf.
+# Hi, hier einmal alle infos und der ablauf.
 
-aktueller ablauf: 
-1. entwicklung frontend l,j,n
+### aktueller ablauf: 
+##### 1. entwicklung frontend l,j,n
 #hier bitte selbst planen
 
 
-3. entwicklung backend  b,r,s
+##### 3. entwicklung backend  b,r,s
 r -> api
 b -> logik der funktionen
 s -> datenbank (viel spass)
@@ -13,7 +13,7 @@ s -> datenbank (viel spass)
 
 
 
-5. jeder muss sein eigenes testing machen, dazu verwenden wir einen test folder
+##### 5. jeder muss sein eigenes testing machen, dazu verwenden wir einen test folder
 diese struktur ist besser weil die tests immer gleich mit erstellt werden und auch von den personen die wissen was getestet werden muss
 
 der main branch wird nur selten übernommen, dieser dient als backup
