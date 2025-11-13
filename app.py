@@ -7,7 +7,7 @@ boxen = [
     {'id': 1, 'ausgabe': '2025-11-10', 'rueckgabe': '2025-11-15', 'status': 'ausgeliehen', 'email': 'max@uni.de'},
     {'id': 2, 'ausgabe': '2025-11-09', 'rueckgabe': '2025-11-12', 'status': 'überfällig', 'email': 'lisa@uni.de'}
 ]
-
+#test
 @app.route('/')
 def home():
     return render_template('index.html', boxen=boxen, title="Übersicht")
