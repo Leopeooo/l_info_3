@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Boxenübersicht</h1>
+
+<table>
+  <tr>
+    <th>Box</th>
+    <th>Ausgabe</th>
+    <th>Rückgabe</th>
+    <th>Status</th>
+    <th>Kontakt</th>
+    <th>Aktion</th>
+  </tr>
+
+  {% for box in boxen %}
+  <tr>
+    <td data-label="Box">{{ box.id }}</td>
+    <td data-label="Ausgabe">{{ box.ausgabe }}</td>
+    <td data-label="Rückgabe">{{ box.rueckgabe }}</td>
+    <td data-label="Status" class="{{ box.status }}">{{ box.status }}</td>
+    <td data-label="Kontakt">{{ box.email }}</td>
+    <td data-label="Aktion">
+      <a href="{{ url_for('return_box', box_id=box.id) }}">Rückgabe</a>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% endblock %}
